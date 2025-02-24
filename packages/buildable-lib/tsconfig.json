@@ -17,7 +17,7 @@
     "target": "es2022",
     "baseUrl": ".",
     "rootDir": "src",
-    "outDir": "dist",
+    "outDir": "./dist",
     "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
     "emitDeclarationOnly": false,
     "forceConsistentCasingInFileNames": true,
