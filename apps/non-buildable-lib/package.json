@@ -1,0 +1,9 @@
+{
+  "name": "@repo/non-buildable-lib",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./package.json": "./package.json"
+  }
+}
