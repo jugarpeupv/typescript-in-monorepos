@@ -17,17 +17,7 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {
-      "@repo/fatherlib": [
-        "packages/fatherLib/src/index.ts"
-      ],
-      "@repo/buildable-lib": [
-        "packages/buildable-lib/src/index.ts"
-      ],
-      "@repo/non-buildable-lib": [
-        "packages/non-buildable-lib/src/index.ts"
-      ]
-    }
+    "paths": {}
   },
   "exclude": [
     "node_modules",

@@ -1,5 +1,5 @@
-import { buildableLib } from '@repo/buildable-lib';
-import { nonBuildableLib } from '@repo/non-buildable-lib';
+import { buildableLib } from '../../buildable-lib/src/index';
+import { nonBuildableLib } from '../../non-buildable-lib/src/index';
 
 export function fatherLib() {
   buildableLib();

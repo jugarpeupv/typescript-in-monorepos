@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { nonBuildableLib } from '@repo/non-buildable-lib';
-import { buildableLib } from '@repo/buildable-lib'
+import { nonBuildableLib } from '../../../non-buildable-lib/src/index';
+import { buildableLib } from '../../../buildable-lib/src/index';
 
 @Component({
   selector: 'app-root',
