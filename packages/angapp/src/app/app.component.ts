@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { nonBuildableLib } from '@repo/non-buildable-lib';
+import { buildableLib } from '@repo/buildable-lib'
 
 @Component({
   selector: 'app-root',
@@ -9,4 +11,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'angapp';
+  ngOnInit() {
+    nonBuildableLib();
+    buildableLib();
+  }
 }
